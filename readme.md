@@ -1,4 +1,4 @@
-# RND 2023-04-09
+# RND 2023-04-09 INSTALL AI CHAT OFFLINE IN PC
 
 
 ![BENCHMARK](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/chart.svg)
