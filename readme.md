@@ -3,11 +3,11 @@
 
 NOTE :
 
-CHAT-GPT SUPPORT SEMUA BAHASA, BLOCK NEGATIVE QUESTION/ANSWER
+# CHAT-GPT SUPPORT SEMUA BAHASA, BLOCK NEGATIVE QUESTION/ANSWER
 
-VICUNA SUPPORT BAHASA INDONESIA, TRAINING MODEL 92% nya CHAT-GPT, SEMI UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
+# VICUNA SUPPORT BAHASA INDONESIA, TRAINING MODEL 92% nya CHAT-GPT, SEMI UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
 
-ALPACA HANYA BAHASA INGGRIS, TRAINING MODEL 76% nya CHAT-GPT, SUPPORT UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
+# ALPACA HANYA BAHASA INGGRIS, TRAINING MODEL 76% nya CHAT-GPT, SUPPORT UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
 
 <details>
   <summary>MODEL : VICUNA, ALPACA (CLICK)</summary>
@@ -57,20 +57,18 @@ ALPACA HANYA BAHASA INGGRIS, TRAINING MODEL 76% nya CHAT-GPT, SUPPORT UNCENSSORE
 
 
 
----
+
+# 0.1 download Oobabooga Webui zip : https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga-windows.zip
+
+# 0.2 unzip 
+
+# 1.1 install.bat choose A (CUDA)
+
+# 1.2 download-model.bat choose A
 
 
-0.1 download Oobabooga Webui zip : https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga-windows.zip
-
-0.2 unzip 
-
-1.1 install.bat choose A (CUDA)
-
-1.2 download-model.bat choose A
 
 
-
----
 
 ```sh
 cd (DIR)\oobabooga-windows\text-generation-webui\models
@@ -106,7 +104,7 @@ trainer_state.json
 training_args.bin
 ```
 
-1.3 create/edit file start-webui.bat
+# 1.3 create/edit file start-webui.bat
 
 
 start-webui.bat (choose model)
