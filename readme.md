@@ -44,7 +44,7 @@ VS
 
 
 <details>
-  <summary>ALBEDO PERSONALITY + CHARACTER RESPONSE</summary>
+  <summary>ALBEDO PERSONALITY + CHARACTER RESPONSE (CLICK)</summary>
 
 ![ALBEDO](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/ALBEDO_PROFILE.png)
 
@@ -54,7 +54,7 @@ VS
 
 
 <details>
-  <summary>EVAI PERSONALITY + CHARACTER RESPONSE</summary>
+  <summary>EVAI PERSONALITY + CHARACTER RESPONSE (CLICK)</summary>
 
 
 ![EVAI](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/EVAI_PROFILE.png)
