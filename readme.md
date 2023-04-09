@@ -40,10 +40,10 @@ training_args.bin
 
 ```
 
-1.3 start-webui-alpaca.bat  edit
+1.3 create/edit file start-webui.bat
 
 
-start-webui-alpaca.bat
+start-webui.bat
 ```sh
 @echo off
 
@@ -60,35 +60,20 @@ if not exist "%MAMBA_ROOT_PREFIX%\condabin\micromamba.bat" (
 call "%MAMBA_ROOT_PREFIX%\condabin\micromamba.bat" activate "%INSTALL_ENV_DIR%" || ( echo MicroMamba hook not found. && goto end )
 cd text-generation-webui
 
-call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model gpt4-x-alpaca-13b-native-4bit-128g
+call python server.py --auto-devices --chat --wbits 4 --groupsize 128
 
 :end
 pause
 ```
 
-
-
-start-webui-vicuna.bat
+start-webui-alpaca.bat (edit server.py command only)
 ```sh
-@echo off
+call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model gpt4-x-alpaca-13b-native-4bit-128g
+```
 
-@echo Starting the web UI...
-
-cd /D "%~dp0"
-
-set MAMBA_ROOT_PREFIX=%cd%\installer_files\mamba
-set INSTALL_ENV_DIR=%cd%\installer_files\env
-
-if not exist "%MAMBA_ROOT_PREFIX%\condabin\micromamba.bat" (
-  call "%MAMBA_ROOT_PREFIX%\micromamba.exe" shell hook >nul 2>&1
-)
-call "%MAMBA_ROOT_PREFIX%\condabin\micromamba.bat" activate "%INSTALL_ENV_DIR%" || ( echo MicroMamba hook not found. && goto end )
-cd text-generation-webui
-
+start-webui-vicuna.bat (edit server.py command only)
+```sh
 call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model vicuna-13b-GPTQ-4bit-128g
-
-:end
-pause
 ```
 
 
