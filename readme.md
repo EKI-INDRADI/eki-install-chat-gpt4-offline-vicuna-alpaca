@@ -43,7 +43,7 @@ training_args.bin
 1.3 create/edit file start-webui.bat
 
 
-start-webui.bat
+start-webui.bat (choose model)
 ```sh
 @echo off
 
@@ -66,12 +66,12 @@ call python server.py --auto-devices --chat --wbits 4 --groupsize 128
 pause
 ```
 
-start-webui-alpaca.bat (edit server.py command only)
+start-webui-alpaca.bat (spesific model, edit server.py command only)
 ```sh
 call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model gpt4-x-alpaca-13b-native-4bit-128g
 ```
 
-start-webui-vicuna.bat (edit server.py command only)
+start-webui-vicuna.bat (spesific model, edit server.py command only)
 ```sh
 call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model vicuna-13b-GPTQ-4bit-128g
 ```
