@@ -1,4 +1,67 @@
 
+![BENCHMARK](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/chart.svg)
+
+NOTE :
+
+CHAT-GPT SUPPORT SEMUA BAHASA, BLOCK NEGATIVE QUESTION/ANSWER
+
+VICUNA SUPPORT BAHASA INDONESIA, TRAINING MODEL 92% nya CHAT-GPT, SEMI UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
+
+ALPACA HANYA BAHASA INGGRIS, TRAINING MODEL 76% nya CHAT-GPT, SUPPORT UNCENSSORED QUESTION/ANSWER JIKA MENGGUNAKAN CHARACTER EVAI
+
+<details>
+  <summary>MODEL : VICUNA, ALPACA (CLICK)</summary>
+
+![MODEL](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/MODEL.png)
+
+</details>
+
+
+<details>
+  <summary>RESOURCE (CLICK)</summary>
+
+![RESOURCE](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/RESOURCE.png)
+
+</details>
+
+<details>
+  <summary>ENABLE API (CLICK)</summary>
+
+![API](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/obabooga_api.png)
+
+</details>
+
+
+<details>
+  <summary>ALBEDO PERSONALITY + CHARACTER RESPONSE</summary>
+
+![ALBEDO](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/ALBEDO_PROFILE.png)
+
+![ALBEDO](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/ALBEDO.png)
+
+</details>
+
+
+<details>
+  <summary>EVAI PERSONALITY + CHARACTER RESPONSE</summary>
+
+
+![EVAI](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/EVAI_PROFILE.png)
+
+![EVAI](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/EVAI_1.png)
+
+![EVAI](https://github.com/EKI-INDRADI/eki-install-chat-gpt4-offline-vicuna-alpaca/blob/main/EVAI_2.png)
+
+
+</details>
+
+
+
+
+
+
+
+
 
 0.1 download Oobabooga Webui zip : https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga-windows.zip
 
@@ -76,6 +139,12 @@ start-webui-vicuna.bat (spesific model, edit server.py command only)
 call python server.py --auto-devices --chat --wbits 4 --groupsize 128 --listen --model vicuna-13b-GPTQ-4bit-128g
 ```
 
+
+
+
+## EKI INDRADI
+
+"TIME > KNOWLEDGE > MONEY". #2023_3_DIGIT_MOTIVATION
 
 
 reference :
